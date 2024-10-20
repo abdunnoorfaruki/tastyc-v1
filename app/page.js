@@ -1,12 +1,15 @@
-
+import AboutSection from "./_sections/AboutSection";
+import CoffeeMenuSection from "./_sections/CoffeeMenuSection";
 import Hero from "./_sections/hero";
-import About from "./_sections/About";
+import OurTeamSection from "./_sections/OurTeamSection";
 
 export default function Home() {
   return (
     <>
       <Hero />
-      <About />
+      <AboutSection />
+      <CoffeeMenuSection />
+      <OurTeamSection />
     </>
   );
 }
