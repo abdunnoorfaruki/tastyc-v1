@@ -1,3 +1,4 @@
+import SectionHeading from "@/components/global/section-heading";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
@@ -12,9 +13,7 @@ const Hero = () => {
       </div>
       <div className="min-h-screen flex justify-center items-center">
         <div className="flex flex-col justify-center items-center">
-          <h2 className="text-center text-[12px] font-semibold text-light-500 uppercase relative bar-before mb-4 tracking-wide  ">
-            Welcome to tastyc
-          </h2>
+         <SectionHeading title={"  Welcome to tastyc"} />
           <h1 className=" text-center text-5xl md:text-6xl lg:text-[112px] tracking-wide text-light-500 uppercase mb-7  ">
             Coffee & Chocolate
           </h1>

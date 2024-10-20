@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 
-body,.badge,h2{
+body,.badge,h2,p{
   font-family: var(--font-roboto);
 }
 h1,h3,h4,h5,h6,button{

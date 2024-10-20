@@ -1,7 +1,6 @@
 import { Italiana, Roboto } from "next/font/google";
-import "./globals.css";
 import Header from "@/app/_layout/Header";
-
+import "@/app/globals.css"
 const italiana = Italiana({
   subsets: ["latin"],
   weight: ["400"],
